@@ -33,6 +33,18 @@ The Attack:
 3. Records the model's predictions  
 4. Trains a stolen Logistic Regression model on the collected data  
 
+## 🔍 Attack Mechanics in Detail
+What the Attacker Steals:
+1. Decision Boundaries: By probing with many inputs, the attacker learns where the model draws boundaries between classes
+2. Feature Importance: Which features matter most for predictions
+3. Model Behavior: How the model responds to different inputs
+
+Why This Works:
+1. Black Box Access: Attacker only needs prediction API, no model internals
+2. Input-Output Pairs: Each query gives (features → predicted_class) training data
+3. Synthetic Data: Attacker doesn't need real training data - can generate it
+4. Model Transfer: Simple models can often approximate complex ones given enough examples
+
 ## The Impact:
 
 1. Without defenses: Attacker steals a functional model with 49.4% accuracy  
