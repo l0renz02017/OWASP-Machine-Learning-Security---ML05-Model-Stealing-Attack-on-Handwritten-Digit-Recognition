@@ -48,23 +48,26 @@ This lab implements multiple defense strategies:
 4. Hard Labels: Returns only top predictions without confidence scores  
 5. Response Normalization: Maintains valid probability distributions while protecting the model
 
-## 📈 Results Summary
-Scenario	Model Accuracy	Query Success	Agreement with Original
-Original Model	97.4%	-	-
-Stolen Model (No Defense)	49.4%	100.0%	60.7%
-Stolen Model (With Defenses)	17.4%	60.7%	27.7%
-Defense Effectiveness: 64.8% reduction in stolen model accuracy
+## 📈 Results Summary  
+Scenario	Model Accuracy	Query Success	Agreement with Original  
+Original Model	97.4%
+Stolen Model (No Defense)	49.4%
+Stolen Model (With Defenses)	17.4%
+Defense Effectiveness: 64.8% reduction in stolen model accuracy  
+  
+<img width="716" height="607" alt="image" src="https://github.com/user-attachments/assets/d6e94960-f61c-4da4-9e4b-eba0c605f420" />
 
 ## 📊 What You Will See  
 🔬 OWASP ML05: Model Stealing Attack Demo - Handwritten Digits  
-============================================================  
+=============================================  
 📊 Loading handwritten digits dataset...  
 📁 Dataset: 1797 digits, 64 pixels each  
 🔢 Digits: 0-9  
   
-============================================================  
+=============================================  
 🔥 SCENARIO 1: Model Stealing - NO Defenses  
-============================================================  
+=============================================  
+
 🏢 Training proprietary digit recognition model...  
 ✅ Model trained with 100.0% training accuracy  
 🎯 Original Model Test Accuracy: 0.974  
@@ -80,9 +83,10 @@ Defense Effectiveness: 64.8% reduction in stolen model accuracy
 🎯 Stolen Model Accuracy: 0.494  
 🤝 Agreement with Original: 0.504  
   
-============================================================  
+=============================================  
 🛡️  SCENARIO 2: Model Stealing - WITH Defenses  
-============================================================  
+=============================================  
+
 🏢 Training proprietary digit recognition model...  
 ✅ Model trained with 100.0% training accuracy  
   
@@ -98,9 +102,10 @@ Defense Effectiveness: 64.8% reduction in stolen model accuracy
 🎯 Stolen Model Accuracy: 0.174  
 🤝 Agreement with Original: 0.172  
   
-============================================================  
+=============================================  
 📊 RESULTS SUMMARY  
-============================================================  
+=============================================  
+
   
 ## 📖 Further Reading  
    -   [OWASP ML Top 10: ML05:2023 Model Theft](https://owasp.org/www-project-machine-learning-security-top-10/docs/ML05_2023-Model_Theft.html)  
