@@ -132,4 +132,6 @@ This demo is the fifth one in the OWASP ML Top 10 series, previous demos are her
 -   [**ML03:2023 Model Inversion Attack**](https://github.com/l0renz02017/OWASP-Machine-Learning-Security-ml03-Model-Inversion-Attack) - Stealing training data from models
 -   [**ML04:2023 Membership Inference Attack**](https://github.com/l0renz02017/OWASP-Machine-Learning-Security-ml04-Membership-Inference-Attack) - Detecting Training Data Secrets
 
+## ⚠️ Disclaimer
 
+This project is intended for **educational and ethical security purposes only**. The goal is to help developers, security professionals, and students understand ML privacy vulnerabilities to build more secure and privacy-preserving AI systems.
