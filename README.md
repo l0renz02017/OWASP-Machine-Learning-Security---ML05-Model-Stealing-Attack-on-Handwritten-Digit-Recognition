@@ -50,10 +50,10 @@ This lab implements multiple defense strategies:
 
 ## 📈 Results Summary  
 Scenario	Model Accuracy	Query Success	Agreement with Original  
-Original Model	97.4%
-Stolen Model (No Defense)	49.4%
-Stolen Model (With Defenses)	17.4%
-Defense Effectiveness: 64.8% reduction in stolen model accuracy  
+Original Model	97.4%  
+Stolen Model (No Defense)	49.4%  
+Stolen Model (With Defenses)	17.4%  
+Defense Effectiveness: 64.8% reduction in stolen model accuracy 
   
 <img width="716" height="607" alt="image" src="https://github.com/user-attachments/assets/d6e94960-f61c-4da4-9e4b-eba0c605f420" />
 
